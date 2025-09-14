@@ -1,12 +1,53 @@
-# React + Vite
+# Abhay Gupta Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive portfolio website showcasing my projects, skills, certifications, and contact options.
 
-Currently, two official plugins are available:
+## Features
+- Responsive UI with glassmorphism effects
+- Animated components using Framer Motion
+- Projects section with "See More / See Less"
+- Certifications showcase
+- Contact form integrated with EmailJS
+- Social links: GitHub, LinkedIn, LeetCode, GeeksforGeeks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React.js
+- TailwindCSS
+- Framer Motion
+- EmailJS
 
-## Expanding the ESLint configuration
+## Projects
+- **Digilekh** – Blogging platform  
+- **Lumina** – Portfolio showcase  
+- **Vasant** – Weather CLI tool  
+- **QuickServe** – Fast food ordering platform  
+- **CodeArena** – Online coding competition platform  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/Abhay-hack/Portfolio.git
+cd Portfolio
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Create a .env file with your EmailJS keys:
+```bash
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+4. Start the development server:
+```bash
+npm run dev
+# or for Create React App
+npm start
+```
+
+## 👨‍💻 Author
+Abhay Gupta
+  - 🌐 Portfolio: [Portfolio](https://brief-navy.vercel.app/)
+  - 📧 Email: guptaabhay1506@gmail.com
+  - 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/abhay-gupta-1257b6248/)
