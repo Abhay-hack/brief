@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 
 const socialLinks = [
   { name: 'Github', icon: <FaGithub className="text-yellow-400" />, url: 'https://github.com/Abhay-hack' },
-  { name: 'GeeksforGeeks', icon: <SiGeeksforgeeks className="text-green-700" />, url: 'https://www.geeksforgeeks.org/user/ag408ya3g/' },
+  { name: 'GeeksforGeeks', icon: <SiGeeksforgeeks className="text-green-700" />, url: 'https://www.geeksforgeeks.org/user/0xcryptia/' },
   { name: 'LeetCode', icon: <SiLeetcode className="text-orange-400" />, url: 'https://leetcode.com/u/0xcrypt/' },
   { name: 'LinkedIn', icon: <FaLinkedin className="text-blue-700" />, url: 'https://www.linkedin.com/in/abhay-gupta-1257b6248' },
 ];

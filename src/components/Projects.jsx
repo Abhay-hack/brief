@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaCode, FaExternalLinkAlt, FaUtensils } from 'react-icons/fa';
-import { SiReact,SiExpress,SiJavascript, SiMongodb, SiPython, SiGo } from 'react-icons/si';
+import { SiReact,SiExpress,SiJavascript, SiMongodb, SiPython, SiFastapi, SiGo } from 'react-icons/si';
 
 const projects = [
   {
@@ -38,6 +38,14 @@ const projects = [
     tech: ['React.js', 'Node.js', 'MongoDB'],
     link: 'https://github.com/Abhay-hack/CodeArena',
     icon: <SiExpress className="text-yellow-500" />,
+  },
+  {
+    name: 'AssetPulse',
+    description:
+      'A sleek full-stack web application for tracking financial assets like US stocks and cryptocurrencies. Users can add assets, view live prices (fetched in INR), toggle favorites, and manage a personalized dashboard.',
+    tech: ['React.js', 'TypeScript', 'NeonDB', 'FastAPI'],
+    link: 'https://github.com/Abhay-hack/Asset-Pulse',
+    icon: <SiFastapi className="text-blue-500" />,
   },
 ];
 

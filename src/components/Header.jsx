@@ -10,7 +10,7 @@ const Header = () => {
       initial={{ opacity: 0, scale: 0.9, y: -30 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="w-11/12 md:w-3/4 mx-auto mt-6 mb-6 px-6 py-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow-md rounded-2xl"
+      className="w-11/12 md:w-3/4 mx-auto mt-6 mb-6 px-6 py-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow-md rounded-2xl sticky"
     >
       <div className="flex justify-between items-center">
         {/* Logo */}
